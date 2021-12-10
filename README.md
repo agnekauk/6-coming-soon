@@ -21,10 +21,11 @@ Design: [Coming-soon](https://cdn.discordapp.com/attachments/850245533838868480/
 -   ***CSS***
 -   ***Image***
 -   ***Web content***
--   ***CSS responsive***
--   ***Animation***
+-   ***Responsive design***
+-   ***CSS animation***
 -   ***Progress bar animation***
 -   ***Back to top***
+-   ***Forms***
 
 
 
