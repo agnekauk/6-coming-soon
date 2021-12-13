@@ -1,6 +1,6 @@
 .container {
     display: inline-block;
-    width:100%;
+    width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -8,37 +8,58 @@
 .container > .row {
     display: inline-block;
     width: 800px;
-    margin-left: calc(50%-400px);
+    margin-left: calc(50% - 400px);
 }
 
 .container > .row-short {
     display: inline-block;
     width: 600px;
-    margin-left: calc(50%-300px);
+    margin-left: calc(50% - 300px);
+}
+
+.container .left {
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.container .right {
+    float: left;
+    width: 40%;
 }
 
 @media (max-width: 900px) {
     .container > .row {
         width: 600px;
-        margin-left: calc(50%-300px);
+        margin-left: calc(50% - 300px);
+    }
 }
 
 @media (max-width: 700px) {
     .container > .row-short,
     .container > .row {
-        display: inline-block;
         width: 400px;
-        margin-left: calc(50%-200px);
+        margin-left: calc(50% - 200px);
+    }
+
+    .container .left {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    .container .right {
+        width: 100%;
     }
 }
-@media (max-width:460px) {
+
+@media (max-width: 460px) {
     .container {
         padding-left: 30px;
-        padding-right: 30 px;
+        padding-right: 30px;
     }
     .container > .row-short,
     .container > .row {
-        display: inline-block;
         width: 100%;
         margin-left: 0;
     }
