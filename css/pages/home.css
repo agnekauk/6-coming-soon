@@ -17,6 +17,11 @@
 /* HERO */
 .hero {
     padding-bottom: 30px;
+    background-image: url(../../img/banner-1.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .hero > .row-short {
     text-align: center;
