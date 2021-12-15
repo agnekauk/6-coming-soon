@@ -1,0 +1,10 @@
+.btn {
+    padding: 0.5em 1em;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 0.25em;
+    border:0.1em solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color:white;
+
+}

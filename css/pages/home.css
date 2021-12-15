@@ -46,12 +46,39 @@
     color:#777777;
 
 }
+
 .hero .clock {
     margin-bottom: 30px;
 }
+
 .hero .form {
     margin-bottom: 15px;
 }
 
 /* MAIN CONTENT */
+.column > * {
+    margin-bottom: 20px;
+}
+.column > *:last-child {
+    margin-bottom: 0;
+}
+
+.content-title {
+    line-height:20px;
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.content-description {
+    font-size:17px;
+    color:#777777;
+}
+
+.link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+
+
 /* FOOTER */
