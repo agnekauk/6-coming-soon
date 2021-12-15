@@ -79,6 +79,9 @@
     text-decoration: none;
 }
 
+.content-description > .link:hover {
+    text-decoration: underline;
+}
 
 
 /* FOOTER */
