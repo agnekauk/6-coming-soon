@@ -2,9 +2,14 @@
     padding: 0.5em 1em;
     font-size: 18px;
     text-transform: capitalize;
-    border-radius: 0.25em;
-    border:0.1em solid var(--secondary-color);
+    line-height: 1em;
+    border-radius: 0.1em;
+    border: 0.1em solid var(--secondary-color);
     background-color: var(--secondary-color);
     color:white;
+    cursor: pointer;
+}
 
+.btn:hover {
+    background-color: var(--secondary-color-dark);
 }
