@@ -1,15 +1,26 @@
 .btn {
-    padding: 0.5em 1em;
+    padding: 0.7em 1em;
     font-size: 18px;
     text-transform: capitalize;
+    text-decoration: none;
     line-height: 1em;
     border-radius: 0.1em;
     border: 0.1em solid var(--secondary-color);
     background-color: var(--secondary-color);
-    color:white;
+    color: white;
     cursor: pointer;
 }
 
 .btn:hover {
     background-color: var(--secondary-color-dark);
+}
+
+.btn.btn-round {
+    border-radius: 1.3em;
+}
+
+.btn.btn-round.fa {
+    width: 2.6em;
+    padding-left: 0;
+    padding-right: 0;
 }
