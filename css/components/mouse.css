@@ -1,5 +1,5 @@
 .mouse {
-    font-size: 1px;
+    font-size: 1.3px;
     display: inline-block;
     width: 26em;
     height: 40em;
@@ -14,4 +14,21 @@
     background-color: #fff;
     margin-top: 8em;
     border-radius: 1.5em;
+    animation-name: scrolling;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        margin-top: 8em;
+        background-color: #ffff;
+    }
+    35% {
+        background-color: #ffff;
+    }
+    100% {
+        margin-top: 24em;
+        background-color: #fff0;
+    }
 }
